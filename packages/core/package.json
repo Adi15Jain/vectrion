@@ -1,0 +1,42 @@
+{
+  "name": "@vectrion/core",
+  "version": "0.1.0",
+  "description": "Core AI runtime SDK client with middleware pipeline, provider abstraction, and structured output validation",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["ai", "llm", "typescript", "sdk", "vectrion", "inference", "middleware", "provider", "openai", "gemini", "ollama"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vectrion/vectrion",
+    "directory": "packages/core"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@vectrion/types": "workspace:*",
+    "@vectrion/shared": "workspace:*",
+    "pino": "^8.19.0",
+    "zod": "^3.22.4"
+  }
+}

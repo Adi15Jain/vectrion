@@ -1,0 +1,41 @@
+{
+  "name": "@vectrion/router",
+  "version": "0.1.0",
+  "description": "Multi-strategy routing engine for Vectrion AI providers — cheapest, fastest, and fallback strategies",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["ai", "llm", "routing", "load-balancing", "failover", "vectrion"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vectrion/vectrion",
+    "directory": "packages/router"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@vectrion/types": "workspace:*",
+    "@vectrion/shared": "workspace:*",
+    "zod": "^3.22.4"
+  }
+}

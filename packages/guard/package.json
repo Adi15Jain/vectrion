@@ -1,0 +1,41 @@
+{
+  "name": "@vectrion/guard",
+  "version": "0.1.0",
+  "description": "Prompt injection detection and safety guardrails middleware for Vectrion AI SDK",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["ai", "llm", "security", "prompt-injection", "guardrails", "safety", "vectrion"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vectrion/vectrion",
+    "directory": "packages/guard"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@vectrion/types": "workspace:*",
+    "@vectrion/shared": "workspace:*",
+    "zod": "^3.22.4"
+  }
+}

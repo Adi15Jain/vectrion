@@ -2,6 +2,8 @@
 
 Ollama local inference provider adapter for the Vectrion AI runtime SDK. Run AI models locally with zero API costs.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

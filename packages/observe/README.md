@@ -2,6 +2,8 @@
 
 Local-first observability middleware for the Vectrion AI runtime SDK. Automatically traces every request with latency, token usage, cost, and provider information.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

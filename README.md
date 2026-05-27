@@ -5,6 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-3178C6.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933.svg)](https://nodejs.org/)
+[![Documentation](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://vectrion.vercel.app/)
+
+📖 **Read the live documentation and complete architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
 
 Vectrion is an infrastructure-focused SDK that abstracts the operational complexity of modern AI application development. It provides a unified interface for multi-provider AI inference with middleware pipelines, intelligent routing, structured output validation, observability, and prompt safety — all with near-zero overhead.
 

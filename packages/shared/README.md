@@ -2,6 +2,8 @@
 
 Shared utilities, custom error hierarchy, and helpers used across all Vectrion packages.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

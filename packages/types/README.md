@@ -2,6 +2,8 @@
 
 Core TypeScript type definitions and interfaces for the Vectrion AI runtime SDK. This package defines the contracts that all other packages implement.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

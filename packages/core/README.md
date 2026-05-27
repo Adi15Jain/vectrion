@@ -2,6 +2,8 @@
 
 The central SDK client for the Vectrion AI runtime infrastructure. Provides the `Vectrion` class with middleware pipeline orchestration, provider abstraction, and Zod-based structured output validation.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

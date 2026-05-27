@@ -2,6 +2,8 @@
 
 Prompt injection detection and safety guardrails middleware for the Vectrion AI runtime SDK.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

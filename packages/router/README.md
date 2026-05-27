@@ -2,6 +2,8 @@
 
 Multi-strategy routing engine for the Vectrion AI runtime SDK. Routes requests across providers using configurable strategies.
 
+📖 **Part of the Vectrion SDK. View the live documentation and architectural specifications at [vectrion.vercel.app](https://vectrion.vercel.app/).**
+
 ## Installation
 
 ```bash

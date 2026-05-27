@@ -1,6 +1,6 @@
 {
   "name": "@vectrion/router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multi-strategy routing engine for Vectrion AI providers — cheapest, fastest, and fallback strategies",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -13,13 +13,25 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "lint": "eslint src/**/*.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "postinstall": "node -e \"console.log('\\x1b[32m%s\\x1b[0m', '  🚀 Thanks for installing Vectrion! For guides and API docs, visit: https://vectrion.vercel.app/\\\\n  Happy coding! 💻✨')\""
   },
-  "keywords": ["ai", "llm", "routing", "load-balancing", "failover", "vectrion"],
+  "keywords": [
+    "ai",
+    "llm",
+    "routing",
+    "load-balancing",
+    "failover",
+    "vectrion"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

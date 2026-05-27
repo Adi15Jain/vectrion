@@ -1,6 +1,6 @@
 {
   "name": "@vectrion/shared",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared utilities, error hierarchy, and helpers for the Vectrion AI runtime SDK",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -13,13 +13,24 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "lint": "eslint src/**/*.ts",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["ai", "llm", "typescript", "utilities", "errors", "vectrion"],
+  "keywords": [
+    "ai",
+    "llm",
+    "typescript",
+    "utilities",
+    "errors",
+    "vectrion"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

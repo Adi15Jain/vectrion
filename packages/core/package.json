@@ -1,6 +1,6 @@
 {
   "name": "@vectrion/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Core AI runtime SDK client with middleware pipeline, provider abstraction, and structured output validation",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -13,13 +13,30 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "lint": "eslint src/**/*.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "postinstall": "node -e \"console.log('\\x1b[32m%s\\x1b[0m', '  🚀 Thanks for installing Vectrion! For guides and API docs, visit: https://vectrion.vercel.app/\\\\n  Happy coding! 💻✨')\""
   },
-  "keywords": ["ai", "llm", "typescript", "sdk", "vectrion", "inference", "middleware", "provider", "openai", "gemini", "ollama"],
+  "keywords": [
+    "ai",
+    "llm",
+    "typescript",
+    "sdk",
+    "vectrion",
+    "inference",
+    "middleware",
+    "provider",
+    "openai",
+    "gemini",
+    "ollama"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
